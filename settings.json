@@ -1,13 +1,13 @@
 {
   "bot-account": {
     "username": "bot",
-    "password": "your_password",
-    "type": "microsoft"
+    "password": "",
+    "type": ""
   },
 
   "server": {
-    "ip": "localhost",
-    "port": 25565,
+    "ip": "194.ip.ply.gg",
+    "port": 62869,
     "version": "1.19.3"
   },
 
@@ -33,7 +33,7 @@
       "hit": {
         "enabled": false,
         "delay": 1000,
-        "attack-mobs": false
+        "attack-mobs": true
       },
 
       "circle-walk": {
@@ -56,7 +56,7 @@
     },
 
     "chat-log": true,
-    "auto-reconnect": false,
+    "auto-reconnect": true,
     "auto-reconnect-delay": 5000
   }
 }
