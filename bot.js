@@ -1,3 +1,4 @@
+require('./server'); // Keeps Render happy by binding a port
 const mineflayer = require('mineflayer');
 const Movements = require('mineflayer-pathfinder').Movements;
 const pathfinder = require('mineflayer-pathfinder').pathfinder;
